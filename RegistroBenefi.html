@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Crear Cuenta</title>
+       <link rel="stylesheet" type="text/css" href="web1/bootstrap/css/bootstrap.css">
+      <style>
+        label{
+          color: white;
+        }
+      </style>
+    </head>
+    <body background="C:\xampp\htdocs\Todos\imagenes\C.jpg">
+     <form action="C:\xampp\htdocs\Todos\Datos\Procesar.php" method="post" name="form">
+        <div id="container" style="margin-left: 5%;">
+        <div class="row">
+        <form class="form-horizontal">
+          <div class="form-group">
+           <label>Nombre</label></br><input type="text" zise="5"  id="nombre" value=""> 
+          </div>
+          <div class="form-group">
+            <label>Calle</label></br><input type="text" zise="5"  id="Calleynum" value=""> 
+           </div>
+        <div class="form-group">
+            <label>Tipo de Usuario</label></br>
+            <select id="TipUsuario">
+                <option value="1">Beneficiario</option>
+                <option value="2">Organizacion</option>
+            </select>
+        
+          <div class="form-group">
+            <label>Municipio</label></br>
+            <select id="municipio">
+                <option value="1">Delicias</option>
+            </select>
+            <div class="form-group">
+            <label>Ciudad</label></br><select id="Cd">
+                <option value="1">Delicias</option>
+            </select>
+            </div>
+          <div class="form-group">
+            <label>Estado</label></br>
+            <select id="Estado">
+                <option value="1">Chihuahua</option>
+            </select>
+        </div>
+          <div class="form-group">
+            <label>Codigo Postal</label></br><input type="text" zise="5" id="CP" value="">
+            </div>
+
+            </div>
+          <div class="form-group">
+            <label>Telefono</label></br><input type="text" zise="5" id="Telefono" value="">
+            </div>
+            <div class="form-group">
+              <label>Correo</label></br><input type="email" zise="5" id="Correo" value="">
+              </div>
+          <div class="form-group">
+           <label>Contrase&ntilde;a</label></br><input type="text" zise="5" id="Password" value="">
+           </div>
+           <div class="form-group">
+            <label>Confirmar Contrase&ntilde;a</label></br><input type="text" id="Password2" value="">
+           </div>
+           <input class="form-btn" name="submit" type="submit" value="Registrar">
+           </div>
+ </form>
+        </div>
+    </div>
+       
+    </body>
+</html>
